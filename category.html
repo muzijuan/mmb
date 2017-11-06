@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="lib/fa/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/link.css">
+    <!--<link rel="stylesheet" href="css/category.css">-->
+
+</head>
+<body>
+<div class="containter">
+    <!--头部-->
+    <div class="mmb_header">
+        <div class="logo">
+            <a href="#"><img src="images/header_logo.png" alt=""></a>
+        </div>
+        <div class="app_download">
+            <a href="#"><img src="images/header_app.png" alt=""></a>
+        </div>
+    </div>
+    <!--搜索栏-->
+    <div class="mmb_search">
+        <form action="#" class="search">
+            <input type="search" name="" id="search" placeholder="请输入你想比价的商品">
+            <input type="button" value="搜索" class="btn ">
+        </form>
+    </div>
+
+    <!--//分类行-->
+    <div class="category">
+        <ul class="oneul clearfix">
+                <!--挖个坑-->
+            <!--<li class="oneli">-->
+                <!--<a href="" class="title"> 手机数码-->
+                    <!--<i class="fa fa-chevron-down"></i></a>-->
+                <!--<ul style=" " class="twoul clearfix">-->
+                    <!--<li><a href="">电视</a></li>-->
+                    <!--<li><a href="">电视</a></li>-->
+                    <!--<li><a href="">电视</a></li>-->
+                    <!--<li><a href="">电视</a></li>-->
+                    <!--<li><a href="">电视</a></li>-->
+                    <!--<li><a href="">电视</a></li>-->
+                    <!--<li><a href="">电视</a></li>-->
+                    <!--<li><a href="">电视</a></li>-->
+                    <!--<li><a href="">电视</a></li>-->
+                    <!--<li><a href="">电视</a></li>-->
+                    <!--<li><a href="">电视</a></li>-->
+                <!--</ul>-->
+            <!--</li>-->
+        </ul>
+
+    </div>
+
+
+    <!--底部-->
+    <div class="mmb_footer1">
+
+        <footer id="ctl00_foot">
+            <div class="foot_top">
+                <a href="javascript:;">登录</a>
+                <a href="javascript:;">注册</a>
+                <a href="#" style="" class="return">
+                    返回顶部
+                </a>
+            </div>
+            <div class="footer">
+                <p>
+                    <a href="javascript:;" style="color: Red;">手机APP下载</a>
+                    <a href="index.html">慢慢买手机版</a> -- 掌上比价平台
+                </p>
+                <p>m.manmanbuy.com</p>
+            </div>
+        </footer>
+    </div>
+</div>
+
+
+
+<script type="text/html" id="tpl1">
+    {{each result v i}}
+    <li class="oneli">
+        <a href="#" class="title"> {{v.title}}
+            <i class="fa fa-chevron-down down"  data-id="{{v.titleId}}"></i>
+        </a>
+        <ul style=" " class="twoul clearfix">
+            <!--挖个坑-->
+        </ul>
+    </li>
+    {{/each}}
+
+</script>
+<script type="text/html" id="tpl2">
+    {{each result v i}}
+        <li><a href="productlist.html?categoryid={{v.categoryId}}" data-category-id="{{v.categoryId}}">{{v.category}}</a></li>
+    {{/each}}
+</script>
+<script src="lib/jquery/jquery.min.js"></script>
+<script src="lib/artTemplate/template-web.js"></script>
+<script src="js/common.js"></script>
+<script src="js/category.js"></script>
+
+</body>
+</html>

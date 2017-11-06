@@ -1,0 +1,83 @@
+.mmb_top {
+  background-color: #fff;
+  position: relative;
+}
+.mmb_smallnav {
+  width: 100%;
+  height: 0.8rem;
+  background: linear-gradient(#fff, #ebebeb);
+  border-top: 0.02rem solid #ebebeb;
+  border-bottom: 0.02rem solid #ccc;
+  font-size: 0.28rem;
+}
+.mmb_smallnav .box_l {
+  margin-left: 0.2rem;
+}
+.mmb_smallnav a {
+  display: block;
+  line-height: 0.72rem;
+  text-align: center;
+  float: left;
+}
+.mmb_smallnav .shaixuan {
+  margin-top: 0.12rem;
+  margin-right: 0.2rem;
+  width: 1.2rem;
+  line-height: 0.56rem;
+  float: right;
+  background-color: #eee;
+  text-align: center;
+  border-radius: 0.1rem;
+  box-shadow: 0 0.02rem 0.04rem #888;
+}
+.mmb_bijia {
+  width: 100%;
+  height: 7.4rem;
+}
+.mmb_bijia .product_topzi {
+  width: 100%;
+  padding: 0.3rem 0.2rem;
+  height: 4rem;
+  font-size: 0.34rem;
+  text-align: center;
+}
+.mmb_bijia .product_pic {
+  width: 100%;
+  height: 3.4rem;
+  margin: 0 auto !important;
+  position: relative;
+}
+.mmb_bijia .product_pic img:first-child {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.mmb_bijia .product_pic img:last-child {
+  width: 0.78rem;
+  height: 0.78rem;
+  position: absolute;
+  bottom: 0.4rem;
+  right: 0.4rem;
+}
+.mmb_xiangqing {
+  width: 100%;
+  height: 0.68rem;
+  border-top: 0.02rem solid #c14d00;
+  border-bottom: 0.02rem solid #c14d00;
+  background-color: #FF841D;
+}
+.mmb_xiangqing li {
+  float: left;
+  height: 0.68rem;
+  line-height: 0.68rem;
+  width: 33.3%;
+  color: #fff;
+  font-size: 0.3rem;
+  text-align: center;
+  border-left: 0.02rem solid #c14d00;
+}
+.product_sj {
+  width: 100%;
+  height: 0.68rem;
+}
