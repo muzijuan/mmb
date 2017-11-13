@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="lib/fa/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/link.css">
+    <link rel="stylesheet" href="css/sitenav.css">
+</head>
+<body>
+<div class="containter">
+    <!--头部-->
+    <div class="mmb_header">
+        <div class="logo">
+            <a href="javascript:history.go(-1)"><i class="fa fa-angle-left back"></i></a>
+        </div>
+        <div class="mmb_middle">
+            <h1>商场导航</h1>
+        </div>
+        <div class="app_download">
+            <a href="#"><img src="images/header_app.png" alt=""></a>
+        </div>
+    </div>
+
+    <div class="site_body ">
+        <div class="site_box clearfix">
+
+<!--渲染-->
+        </div>
+
+
+    </div>
+
+    <div class="mmb_footer">
+
+        <footer id="ctl00_foot">
+            <div class="foot_top">
+                <a href="javascript:;">登录</a>
+                <a href="javascript:;">注册</a>
+                <a href="#"  class="return">
+                    返回顶部
+                </a>
+            </div>
+            <div class="footer">
+                <p>
+                    <a href="javascript:;" style="color: Red;">手机APP下载</a>
+                    <a href="index.html">慢慢买手机版</a> -- 掌上比价平台
+                </p>
+                <p>m.manmanbuy.com</p>
+            </div>
+        </footer>
+    </div>
+</div>
+<script type="text/html" id="tpl1">
+    {{each result v i}}
+    <a href="{{v.navHref}}">
+        <img src="{{v.navImg}}" alt="">
+        {{v.navTitle}}
+    </a>
+    {{/each}}
+
+</script>
+
+<script src="lib/jquery/jquery.min.js"></script>
+<script src="lib/artTemplate/template-web.js"></script>
+<script src="js/common.js"></script>
+<!--<script src="js/moneyctrlproduct.js"></script>-->
+<script src="js/sitenav.js"></script>
+<script src="js/tools.js"></script>
+
+</body>
+</html>

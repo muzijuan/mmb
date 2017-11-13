@@ -1,5 +1,6 @@
 .mmb_top {
   background-color: #fff;
+  position: relative;
 }
 .mmb_smallnav {
   width: 100%;
@@ -31,8 +32,7 @@
 }
 .mmb_productlist1 {
   width: 100%;
-  height: 10rem;
-  background-color: red;
+  background-color: transparent !important;
 }
 .mmb_productlist1_son li {
   height: 2.36rem;
@@ -40,7 +40,7 @@
   padding: 0.2rem;
   font-size: 0.3rem;
   position: relative;
-  background-color: yellow;
+  border-bottom: 0.02rem solid #ccc !important;
 }
 .mmb_productlist1_son li .pic {
   width: 2rem;
@@ -78,4 +78,42 @@
 .mmb_productlist1_son li .bottom .price {
   font-size: 0.36rem;
   color: red;
+}
+.fenye {
+  width: 100%;
+  height: 1rem;
+  border-top: 1px solid #ccc;
+  padding-top: 0.2rem;
+  box-sizing: border-box;
+}
+.fenye span {
+  display: block;
+  float: left;
+  width: 33.3%;
+  height: 1rem;
+  font-size: 0.28rem;
+  color: #ccc;
+  text-align: center;
+}
+.fenye span select {
+  display: block;
+  line-height: 0.72rem;
+  height: 0.72rem;
+  width: 1.6rem;
+  text-align: center;
+  font-size: 0.28rem;
+  border-radius: 0.1rem;
+  margin: 0 auto;
+  text-align: start;
+}
+.fenye span a {
+  display: block;
+  line-height: 0.72rem;
+  width: 1.6rem;
+  background-color: #d4d4d4;
+  text-align: center;
+  font-size: 0.28rem;
+  border-radius: 0.1rem;
+  margin: 0 auto;
+  box-shadow: 0 0 1px #666;
 }

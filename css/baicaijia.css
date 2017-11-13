@@ -1,0 +1,185 @@
+.mmb_header {
+  height: 0.88rem;
+  background-color: #f4483e;
+}
+.mmb_header .logo .back {
+  font-size: 0.68rem !important;
+  color: #fff;
+  position: absolute;
+  top: 0.12rem;
+  left: 0.3rem;
+}
+.mmb_middle {
+  margin-right: 1rem;
+  height: 1rem;
+  line-height: 1rem;
+  font-size: 0.24rem !important;
+  text-align: center;
+  color: #fff;
+}
+.mmb_middle h3 {
+  height: 1rem;
+  line-height: 1rem;
+  font-size: 0.48rem;
+  font-weight: bold;
+}
+.mmb_body {
+  background-color: #fff;
+}
+.mmb_body .bcj-nav1 {
+  position: relative;
+}
+.mmb_body .fr1 {
+  width: 0.76rem;
+  height: 0.76rem;
+  border-left: 0.02rem solid #ccc;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 999;
+}
+.mmb_body .fr1 img {
+  display: block;
+  width: 0.76rem;
+  height: 0.76rem;
+}
+.mmb_body .bcj-nav-header {
+  height: 0.76rem;
+}
+.mmb_body .bcj-nav-header .bcj-nav-header li {
+  line-height: 0.76rem;
+  list-style: none;
+  float: left;
+  margin: 0.24rem 0.24rem;
+  font-size: 0.28rem;
+}
+.mmb_body .bcj-nav-header .bcj-nav-header .mui-control-item.now {
+  border-bottom: 2px solid #e4393c;
+}
+.mmb_body .bcj-nav-header li.mui-active {
+  color: #e4393c !important;
+  border-bottom: 2px solid #e4393c !important;
+}
+.mmb_body .bcj-nav-header li.mui-active span {
+  line-height: 0.76rem;
+  border-bottom: 0.04rem solid red;
+}
+.mmb_body .bcj-nav-header li.mui-active a {
+  border-bottom: 1px solid red;
+}
+.baicaijialist ul {
+  padding: 0.12rem;
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+.baicaijialist li {
+  border-top: 0.06rem solid #f1f1f1;
+  width: 100%;
+  height: 3rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+.baicaijialist li .pic {
+  margin-left: 0.1rem;
+  width: 2.6rem;
+  height: 2.6rem;
+  border: 1px solid #ccc;
+}
+.baicaijialist li .pic img {
+  width: 2.6rem;
+  height: 2.6rem;
+}
+.baicaijialist li .inf {
+  overflow: hidden;
+  padding-left: 0.2rem;
+}
+.baicaijialist li .inf .i {
+  font-size: 0.28rem;
+}
+.baicaijialist li .inf .i .t {
+  height: 0.56rem;
+  font-size: 0.28rem;
+  font-weight: 8rem;
+  line-height: 0.56rem;
+}
+.baicaijialist li .inf .i .pr {
+  color: #fc353a;
+  font-size: 0.48rem;
+  margin: 0.3rem;
+  margin-top: 0.2rem;
+}
+.baicaijialist li .inf .i .pr i {
+  font-size: 0.32rem;
+  color: #fc353a;
+  vertical-align: middle;
+  margin-right: 0.16rem;
+}
+.baicaijialist li .inf .i .pr em {
+  margin-left: 0.16rem;
+  color: #fc353a;
+  font-size: 0.24rem;
+  margin-right: 0.08rem;
+}
+.baicaijialist li .inf .i .pr del {
+  font-size: 0.26rem;
+  color: #a8a8a8;
+  margin-left: 0.24rem;
+}
+.baicaijialist li .o {
+  font-size: 0.24rem;
+  position: relative;
+}
+.baicaijialist li .o .bar i {
+  position: relative;
+  box-sizing: border-box;
+  width: 82px;
+  height: 14px;
+  border: 1px solid #fc353a;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 900;
+  background: #ffb7b7;
+  text-align: center;
+  overflow: hidden;
+  display: inline-block;
+}
+.baicaijialist li .o b {
+  margin: 0.2rem;
+  color: #fc353a;
+}
+.baicaijialist li .o .b {
+  margin-top: 0.12rem;
+  height: 0.52rem;
+  line-height: 0.52rem;
+}
+.baicaijialist li .o .b .q a {
+  border: 1px dotted #e4393c;
+  height: 0.52rem;
+  line-height: 0.52rem;
+  text-align: center;
+  display: block;
+  padding: 0px 0.1rem;
+  font-size: 0.24rem;
+  color: #e4393c;
+  position: relative;
+  z-index: 1;
+}
+.baicaijialist li .o .b .g {
+  margin-right: 0.1rem;
+}
+.baicaijialist li .o .b .g a {
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  display: block;
+  background-color: #ff5e5d;
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 0px 5px;
+  font-size: 12px;
+  position: absolute;
+  bottom: 0;
+  right: 0.1rem;
+  z-index: 1;
+}

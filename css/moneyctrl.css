@@ -1,0 +1,103 @@
+.mmb_header {
+  height: 0.88rem;
+}
+.mmb_header .logo .back {
+  font-size: 0.68rem !important;
+  color: #fff;
+  position: absolute;
+  top: 0.12rem;
+  left: 0.3rem;
+}
+.mmb_middle {
+  margin-right: 1rem;
+  height: 1rem;
+  line-height: 1rem;
+  font-size: 0.24rem;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
+.moneyctrl_body {
+  background-color: #fff;
+}
+.moneyctrl_product {
+  padding-top: 0.3rem;
+}
+.moneyctrl_productul li {
+  height: 2.72rem;
+  width: 100%;
+  font-size: 0.3rem;
+  position: relative;
+}
+.moneyctrl_productul li .pic {
+  width: 2rem;
+  height: 2rem;
+  margin-top: 0.18rem;
+  position: relative;
+}
+.moneyctrl_productul li .pic img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2rem;
+  height: 2rem;
+  margin: 0 auto;
+}
+.moneyctrl_productul li .top {
+  color: #333;
+  margin-left: 0.2rem;
+}
+.moneyctrl_productul li .top span {
+  color: #FF841D;
+}
+.moneyctrl_productul li .bottom {
+  width: 100%;
+  padding-left: 2.2rem;
+  padding-bottom: 0.6rem;
+  position: absolute;
+  bottom: 0;
+}
+.moneyctrl_productul li .bottom .mall {
+  font-size: 0.24rem;
+  color: #a1a1a1;
+}
+.moneyctrl_productul li .bottom .comment {
+  color: #a1a1a1;
+}
+.fenye {
+  width: 100%;
+  height: 1rem;
+  padding-top: 0.2rem;
+  box-sizing: border-box;
+}
+.fenye span {
+  display: block;
+  float: left;
+  width: 33.3%;
+  height: 1rem;
+  font-size: 0.28rem;
+  color: #ccc;
+  text-align: center;
+}
+.fenye span select {
+  display: block;
+  line-height: 0.72rem;
+  height: 0.72rem;
+  width: 1.6rem;
+  text-align: center;
+  font-size: 0.28rem;
+  border-radius: 0.1rem;
+  margin: 0 auto;
+  text-align: start;
+}
+.fenye span a {
+  display: block;
+  line-height: 0.72rem;
+  width: 1.6rem;
+  background-color: #d4d4d4;
+  text-align: center;
+  font-size: 0.28rem;
+  border-radius: 0.1rem;
+  margin: 0 auto;
+  box-shadow: 0 0 1px #666;
+}

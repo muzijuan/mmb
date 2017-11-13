@@ -1,0 +1,185 @@
+.mmb_header {
+  height: 0.88rem;
+}
+.mmb_header .logo .back {
+  font-size: 0.68rem !important;
+  color: #fff;
+  position: absolute;
+  top: 0.12rem;
+  left: 0.3rem;
+}
+.mmb_middle {
+  margin-right: 1rem;
+  height: 1rem;
+  line-height: 1rem;
+  font-size: 0.24rem;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
+.moneyctrlproduct {
+  background-color: #fff;
+  border: 1px solid transparent;
+  padding: 0.2rem;
+}
+.moneyctrlproduct .title {
+  margin: 10px auto 5px auto;
+  width: 100%;
+  height: 0.52rem;
+  line-height: 0.52rem;
+  font-size: 0.36rem;
+  font-weight: 16rem;
+  color: #5a5a5a;
+}
+.moneyctrlproduct .info {
+  margin-top: -0.5rem !important;
+}
+.moneyctrlproduct .info span {
+  margin-top: -0.4rem !important;
+  padding-left: 0.08rem;
+  font-size: 0.24rem;
+  color: #999;
+}
+.moneyctrlproduct .content {
+  width: 100%;
+  font-size: 0.32rem;
+  position: relative;
+}
+.moneyctrlproduct .content .smallpic {
+  margin-right: 0.2rem;
+  width: 2.4rem !important;
+  height: 2.4rem !important;
+}
+.moneyctrlproduct .content .smallpic img {
+  width: 2.4rem !important;
+  height: 2.4rem !important;
+}
+.moneyctrlproduct .content p {
+  overflow: hidden;
+}
+.moneyctrlproduct .content p img {
+  width: 7rem;
+  height: 7rem;
+}
+.area1 {
+  width: 100%;
+  background-color: #fff;
+  margin-top: 0.5rem;
+}
+.area_box1 {
+  width: 3.98rem !important;
+  box-shadow: 1px 2px 0.1rem rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  padding: 0px 0.2rem;
+  border-color: #f1f1f1 #f1f1f1 #dbdbdb #f1f1f1;
+  border-width: 0px 1px 1px 1px;
+  border-style: solid;
+  margin: 0 auto;
+}
+.area_box1 ul li {
+  width: 100%;
+  height: 0.7rem !important;
+  line-height: 0.7rem !important;
+  text-align: center;
+  border-bottom: 1px dashed #ccc;
+  font-size: 0.24rem;
+}
+.area_box1 ul li span {
+  float: left;
+  font-size: 0.24rem;
+  color: #000;
+  text-align: left;
+}
+.area_box1 ul li strong {
+  float: right;
+  margin-left: 0.4rem;
+  font-size: 0.24rem;
+  color: #f27b04;
+}
+.gobuy {
+  width: 98%;
+  margin: 0 auto;
+}
+.gobuy1 {
+  margin-top: 0.4rem;
+  height: 0.6rem;
+  line-height: 0.6rem;
+  width: 100%;
+  padding: 0 0.7rem;
+  border-radius: 0.08rem;
+  background-color: #ff9000;
+  color: #fff;
+  font-size: 0.28rem;
+  text-align: center;
+}
+.mmbweixin {
+  margin-top: 0.8rem;
+}
+.mmbweixin img {
+  width: 100%;
+}
+.comment-content .tit {
+  font-size: 0.32rem !important;
+  color: #000;
+  padding-top: 0.16rem;
+  padding-bottom: 0.16rem;
+}
+.comment-content .form {
+  border: 2px solid #ECEAE8;
+}
+.comment-content .form textarea {
+  width: 100%;
+  resize: none;
+  overflow-x: hidden;
+  overflow-y: auto;
+  border: none;
+  line-height: 0.44rem;
+  font-size: 0.28rem;
+  outline: 0;
+  color: #666;
+  height: 1.36rem;
+}
+.comment-content .form .ctrl {
+  background-color: #fbfbfb;
+  height: 0.76rem;
+  margin-left: -0.08rem;
+  border-top: solid 1px #f2f2f2;
+}
+.comment-content .form input {
+  float: right;
+  width: 2rem;
+  height: 0.78rem;
+  border: solid 1px #f2f2f2;
+  line-height: 0.74rem;
+  background-color: #ff841d;
+  color: #fff;
+  font-size: 0.32rem;
+  text-align: center;
+}
+.cmt_list li {
+  padding: 0.36rem 0.2rem;
+}
+.cmt_list .userimg {
+  width: 0.8rem;
+  height: 0.8rem;
+}
+.cmt_list .userimg img {
+  width: 0.8rem;
+  height: 0.8rem;
+}
+.cmt_list .info {
+  margin-left: 1rem;
+}
+.cmt_list .info .name {
+  font-size: 0.26rem;
+  color: #5997c0;
+  margin-bottom: 0.12rem;
+}
+.cmt_list .info .words {
+  font-size: 0.3rem;
+  line-height: 0.4rem;
+}
+.right {
+  font-size: 0.26rem;
+  color: #999;
+}

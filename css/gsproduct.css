@@ -1,0 +1,148 @@
+.mmb_header {
+  height: 0.88rem;
+}
+.mmb_header .logo .back {
+  font-size: 0.68rem !important;
+  color: #fff;
+  position: absolute;
+  top: 0.12rem;
+  left: 0.3rem;
+}
+.mmb_middle {
+  margin-right: 1rem;
+  height: 1rem;
+  line-height: 1rem;
+  font-size: 0.24rem;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
+.gs_nav {
+  width: 100%;
+  height: 0.74rem;
+  background-color: #fff;
+  padding-top: 0.18rem;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 999;
+  border-bottom: 1px solid #dadada;
+}
+.gs_nav a {
+  display: block;
+  float: left;
+  width: 33.3%;
+  height: 0.74em;
+  line-height: 0.74em;
+  text-align: center;
+  font-size: 0.32rem;
+}
+.gs_nav .content {
+  width: 100%;
+  position: absolute;
+  top: 0.74rem;
+  left: 0;
+  background-color: #ffffff;
+  box-shadow: 0px 3px 6px #dddddd;
+}
+.gs_nav .content .c {
+  display: none;
+}
+.gs_nav .content li {
+  width: 100%;
+  padding: 0 0.2rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  border-bottom: 1px solid #dadada;
+  font-size: 0.36rem;
+  text-align: left;
+  box-sizing: border-box;
+  position: relative;
+}
+.gs_nav .content li a {
+  display: block;
+  text-align: left;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  font-size: 0.36rem;
+}
+.gs_nav .content li i {
+  position: absolute;
+  top: 0;
+  right: 0.8rem;
+  font-size: 0.44rem;
+  font-weight: bold;
+  color: red;
+  display: none;
+}
+.gs1 {
+  width: 100%;
+  padding: 0.2rem;
+}
+li {
+  background-color: #fff;
+  float: left;
+  width: 49%;
+  height: 4.8rem;
+  vertical-align: middle;
+  text-align: center;
+  position: relative;
+  border: 1px solid transparent;
+  margin-bottom: 0.2rem;
+}
+li .pic {
+  width: 3.4rem;
+  height: 3.4rem;
+  margin: 0 auto;
+}
+li .pic img {
+  width: 3.4rem;
+  height: 3.4rem;
+}
+li .title {
+  height: 14px;
+  font-size: 0.24rem;
+  line-height: 14px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-align: left;
+  margin-left: 0.1rem;
+}
+li .bottom {
+  width: 100%;
+  height: 0.56rem;
+  position: absolute;
+  left: 0;
+  bottom: 0.1rem;
+}
+li .bottom .price {
+  color: #f8601d;
+  font-size: 0.4rem;
+  margin-bottom: 0.1rem;
+  margin-left: 0.1rem;
+}
+li .bottom .mall {
+  width: 1.24rem;
+  height: 0.54rem;
+  line-height: 0.54rem;
+  margin-right: 0.08rem;
+  background-color: #ff9501;
+  color: #fff;
+  text-align: center;
+  font-size: 0.28rem;
+  border-radius: 0.06rem;
+}
+li:nth-child(even) {
+  float: right;
+}
+li:nth-child(odd) {
+  float: left;
+}
+.content1 {
+  width: 100%;
+}
+.content1 li {
+  height: 0.78rem;
+  border-bottom: 1px dashed #ccc;
+}

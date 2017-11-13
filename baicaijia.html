@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="lib/fa/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/link.css">
+    <link rel="stylesheet" href="css/baicaijia.css">
+    <link rel="stylesheet" href="lib/mui/css/mui.css">
+</head>
+<body>
+<div class="containter">
+    <!--头部-->
+    <div class="mmb_header">
+        <div class="logo">
+            <a href="javascript:history.go(-1);">
+            <i class="fa fa-angle-left back"></i>
+            </a>
+        </div>
+        <div class="mmb_middle">
+            <h3>白菜价-淘宝内部券</h3>
+        </div>
+        <div class="app_download">
+            <a href="#"><img src="images/header_app.png" alt=""></a>
+        </div>
+    </div>
+
+    <div class="mmb_body">
+
+        <div class="bcj-nav1">
+            <div class="bcj-nav-header">
+            <div class="mui-scroll-wrapper mui-slider-indicator mui-segmented-control mui-segmented-control-inverted">
+                <div class="mui-scroll">
+                    <ul class="bcj-nav1ul">
+                        <li class="mui-control-item mui-active"> <span>哈哈哈</span></li>
+
+
+
+                   </ul>
+                </div>
+            </div>
+
+            </div>
+            <div class="fr1 ">
+                <img src="images/tou.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="baicaijialist">
+            <ul class="baicaijialistul">
+<!--模板渲染-->
+            </ul>
+        </div>
+
+    </div>
+
+
+
+
+
+    <div class="mmb_footer">
+
+        <footer id="ctl00_foot">
+            <div class="foot_top">
+                <a href="javascript:;">登录</a>
+                <a href="javascript:;">注册</a>
+                <a href="#"  class="return">
+                    返回顶部
+                </a>
+            </div>
+            <div class="footer">
+                <p>
+                    <a href="javascript:;" style="color: Red;">手机APP下载</a>
+                    <a href="index.html">慢慢买手机版</a> -- 掌上比价平台
+                </p>
+                <p>m.manmanbuy.com</p>
+            </div>
+        </footer>
+    </div>
+</div>
+<script type="text/html" id="tpl">
+    {{each result v i}}
+    <li class="mui-control-item "  data-titleid="{{v.titleId}}"> <span>{{v.title}}</span></li>
+    {{/each}}
+
+</script>
+<script type="text/html" id="tpl2">
+    {{each result v i}}
+    <li class="ui-border-tb ">
+        <a biz-itemid="538754112089" class="gobuy" isconvert="1" href="http://s.click.taobao.com/lkqGHQx" target="_blank"></a>
+        <div class="pic fl"><i></i>{{@v.productImg}}</div>
+        <div class="inf">
+            <div class="i">
+                <div class="t">{{@v.productName}}</div>
+                <div class="pr">{{@v.productPrice}}</del>
+                </div>
+            </div>
+            <div class="o clearfix">
+                <div class="bar clearfix"><a href="http://shop.m.taobao.com/shop/coupon.htm?activityId=27a14c9fc6bb4a48b917d567fcf8f664&amp;sellerId=2246833798" class="goquan" target="_blank"></a><i><em style="width:1%;"></em><span>1%</span></i><b>已领82张</b></div>
+                <div class="b clearfix fl">
+                    <div class="q">{{@v.productCoupon}}</div>
+                    <div class="g">{{@v.productHref}}</div>
+                </div>
+            </div>
+        </div>
+    </li>
+
+{{/each}}
+
+</script>
+
+
+
+<script src="lib/jquery/jquery.min.js"></script>
+<script src="lib/artTemplate/template-web.js"></script>
+<script src="lib/mui/js/mui.js"></script>
+<script src="js/common.js"></script>
+<script src="js/baicaijia.js"></script>
+<script src="js/tools.js"></script>
+
+</body>
+</html>

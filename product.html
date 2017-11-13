@@ -31,21 +31,13 @@
         <!--导航条-->
         <div class="mmb_smallnav clearfix">
             <div class="box_l fl">
-                <a href="index.html">首页&nbsp;></a>
-                <a href="category.html">电视&nbsp; ></a>
-                <a href="productlist.html">乐视TV(Letv)S50&nbsp;></a>
+                <!--挖个坑-->
             </div>
             <a href="#" class="shaixuan" fr>筛选</a>
         </div>
         <!--单个商品展示-->
         <div class="mmb_bijia">
-            <div class="product_topzi">
-                哈哈哈哈哈哈小米电视真的好
-            </div>
-            <div class="product_pic">
-                <img src="images/haitao.png" imgalt="">
-                <img src="images/haitao.png" alt="">
-            </div>
+           <!--挖个坑-->
         </div>
         <div class="mmb_xiangqing">
             <ul class="clearfix">
@@ -54,11 +46,36 @@
                 <li>评价(2322)</li>
             </ul>
         </div>
-        <div class="product_sj">
-            <div></div>
-            <div></div>
+        <!--商家-->
+        <div id="product_sj" class="clearfix">
+            <div class="left1 fl">
+                <a href="#"><img src="images/slogo.png" alt=""></a>
+                <a href="#" class="sj">京东商城</a>
+            </div>
+            <div class="right1 fr">
+                <span>&yen;19999</span>
+                <span>去购买</span>
+            </div>
+        </div>
+        <!--说明-->
+        <div class="shuoming1">* 实际价格以各网站列出的实时售价为准，我们提供的价格可能有数小时至数日的延迟。
+        </div>
+        <!--买家评价-->
+        <div class="product_comment_head">
+            网友评价
+        </div>
+        <!--评价内容-->
+        <div class="product_comment_content">
+            <ul class="oneul">
+               <!--挖个坑-->
+            </ul>
+
         </div>
 
+        <!--更多评论-->
+        <div class="more_comment1">
+        <div class="more_comment">查看更多评论</div>
+        </div>
     </div>
     <!--底部-->
     <div class="mmb_footer">
@@ -80,17 +97,61 @@
         </footer>
     </div>
 </div>
+
 <script type="text/html" id="tpl">
+    {{each result v i}}
+    <a href="index.html">首页&nbsp;></a>
+    <a href="productlist.html?categoryid={{v.categoryId}}">{{v.category}}&nbsp; ></a>
+   <span class="productname1">
+       <!--挖个坑-->
+   </span>
+    {{/each}}
+</script>
+<script type="text/html" id="tpl2">
+    <a href="#">{{pro}}&nbsp;></a>
+</script>
+
+<script type="text/html" id="tpl3">
+    {{each result v i}}
+    <div class="product_topzi">
+        {{v.productName}}
+    </div>
+    <div class="product_pic">
+        {{@v.productImg}}
+        <img src="images/haitao.png" alt="">
+    </div>
+    {{/each}}
+</script>
+
+
+<script type="text/html" id="tpl4">
+    {{each result v i}}
+    <li>
+        <div class="top clearfix">
+            <span class="fl">{{v.comName}}</span>
+            <span class="fr">{{v.comTime}}</span>
+        </div>
+        <div class="middle clearfix">
+            <span class="fr">{{v.comFrom}}</span>
+        </div>
+        <div class="bottom">
+            {{v.comContent}}
+        </div>
+    </li>
+    {{/each}}
+</script>
+<script type="text/html" id="tpl5">
+
+
 
 
 </script>
-<script type="text/html" id="tp2">
 
-</script>
 <script src="lib/jquery/jquery.min.js"></script>
 <script src="lib/artTemplate/template-web.js"></script>
 <script src="js/common.js"></script>
 <script src="js/product.js"></script>
+<script src="js/tools.js"></script>
 
 </body>
 </html>

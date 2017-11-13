@@ -1,0 +1,90 @@
+.mmb_header {
+  height: 0.88rem;
+}
+.mmb_header .logo .back {
+  font-size: 0.68rem !important;
+  color: #fff;
+  position: absolute;
+  top: 0.12rem;
+  left: 0.3rem;
+}
+.mmb_middle {
+  margin-right: 1rem;
+  height: 1rem;
+  line-height: 1rem;
+  font-size: 0.24rem;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
+.mmb_smallnav {
+  width: 100%;
+  height: 0.8rem;
+  background: linear-gradient(#fff, #ebebeb);
+  border-top: 0.02rem solid #ebebeb;
+  border-bottom: 0.02rem solid #ccc;
+  font-size: 0.28rem;
+}
+.mmb_smallnav .box_l {
+  margin-left: 0.2rem;
+}
+.mmb_smallnav a {
+  display: block;
+  line-height: 0.72rem;
+  text-align: center;
+  float: left;
+}
+.mmb_smallnav .shaixuan {
+  margin-top: 0.12rem;
+  margin-right: 0.2rem;
+  width: 1.2rem;
+  line-height: 0.56rem;
+  float: right;
+  background-color: #eee;
+  text-align: center;
+  border-radius: 0.1rem;
+  box-shadow: 0 0.02rem 0.04rem #888;
+}
+.select_body {
+  width: 100%;
+  background-color: #fff;
+  padding-top: 0.2rem;
+}
+.select_body .header {
+  height: 0.8rem;
+  line-height: 0.8rem;
+  padding-left: 0.2rem;
+  width: 100%;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  background-color: #eee;
+  color: #874604;
+  font-size: 0.32rem;
+}
+.select_body .select_content {
+  width: 100%;
+  background-color: #eee;
+}
+.select_body .select_content ul {
+  border: 1px solid #ccc;
+}
+.select_body .select_content li {
+  width: 100%;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  font-size: 0.32rem;
+  border-bottom: 1px solid #ccc;
+}
+.select_body .select_content li a {
+  display: block;
+  font-weight: bold;
+  position: relative;
+  padding-left: 0.2rem;
+}
+.select_body .select_content li a i {
+  color: red;
+  width: 0.4rem;
+  height: 0.4rem;
+  font-size: 0.32rem;
+  font-weight: bold;
+}

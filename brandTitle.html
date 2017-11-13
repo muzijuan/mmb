@@ -6,12 +6,16 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Title</title>
     <link rel="stylesheet" href="lib/fa/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="css/link.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/brandTitle.css">
+
 </head>
 <body>
 <div class="containter">
-    <!--头部-->
+
+
+        <!--头部-->
     <div class="mmb_header">
         <div class="logo">
             <a href="#"><img src="images/header_logo.png" alt=""></a>
@@ -27,41 +31,38 @@
             <input type="button" value="搜索" class="btn ">
         </form>
     </div>
-    <!--导航-->
-    <div class="mmb_nav">
-        <ul class="clearfix mmb1_nav">
-            <!--渲染区-->
-        </ul>
-
+    <!--导航条-->
+    <div class="mmb_smallnav clearfix">
+        <div class="box_l fl">
+            <a href="index.html">首页 ></a>
+            <a href="category.html">全部分类 ></a>
+            <!--挖个坑-->
+        </div>
     </div>
-    <!--产品推荐-->
-    <div class="mmb_product">
+
+    <!--选择主体-->
+    <div class="select_body">
         <div class="header">
-         <span class="fl">超值折扣推荐</span>
-         <a href="" ><img src="images/ic_kb.png" alt=""></a>
-        </div>
-        <div class="content">
-            <ul class="clearfix count">
-               <!--渲染-->
-            </ul>
-        <div class="more_cheap">
-            <a href="">更多优惠信息 »</a>
-        </div>
+            热门品牌排行
 
         </div>
-    </div>
-<!--底部-->
-    <div class="mmb_footer">
-         <div class="header">
-        <span class="fl">品牌排行</span>
-        <a href="" ><img src="images/ic_mall.png" alt=""></a>
+        <div class="select_content">
+            <ul class="clearfix select_contentul">
+               <!--模板渲染-->
+
+            </ul>
         </div>
+
+    </div>
+    <!--底部-->
+    <div class="mmb_footer1">
+
         <footer id="ctl00_foot">
             <div class="foot_top">
                 <a href="javascript:;">登录</a>
                 <a href="javascript:;">注册</a>
-                <a href="#"  class="return">
-                   返回顶部
+                <a href="#" style="" class="return">
+                    返回顶部
                 </a>
             </div>
             <div class="footer">
@@ -73,43 +74,33 @@
             </div>
         </footer>
     </div>
+
 </div>
-<script type="text/html" id="tpl">
+
+
+
+<script type="text/html" id="tpl1">
     {{each result v i}}
     <li>
-        <a href="{{v.titlehref}}">
-            {{#v.img}}
-            <p>{{v.name}}</p>
+        <a href="brandlist.html?brandtitleid={{v.brandTitleId}}">
+            {{v.brandTitle}}
+            <i class="fa fa-fa-chevron-down"></i>
         </a>
     </li>
     {{/each}}
 
 </script>
-<script type="text/html" id="tp2">
+<script type="text/html" id="tpl2">
     {{each result v i}}
-    <li>
-        <a href="">
-            <div class="pic fl">{{#v.productImg2}}</div>
-            <div class="top fl">
-                {{v.productName}}
-                <span>{{v.productPinkage}}</span>
-            </div>
-            <div class="bottom">
-                <span class="mall">{{v.productFrom}} | {{v.productTime}}</span>
-            <span class="comment fr">
-            <i class="fa fa-commenting-o"></i>
-            1
-            </span>
-            </div>
-        </a>
-    </li>
-{{/each}}
+    <li><a href="productlist.html?categoryid={{v.categoryId}}" data-category-id="{{v.categoryId}}">{{v.category}}</a></li>
+    {{/each}}
 </script>
 <script src="lib/jquery/jquery.min.js"></script>
+
 <script src="lib/artTemplate/template-web.js"></script>
-<script src="js/common.js"></script>
-<script src="js/index.js"></script>
 <script src="js/tools.js"></script>
+<script src="js/common.js"></script>
+<script src="js/brandTitle.js"></script>
 
 </body>
 </html>

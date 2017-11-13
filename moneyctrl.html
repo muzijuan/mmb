@@ -7,41 +7,27 @@
     <title>Title</title>
     <link rel="stylesheet" href="lib/fa/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/link.css">
-    <link rel="stylesheet" href="css/productlist.css">
+    <link rel="stylesheet" href="css/moneyctrl.css">
 </head>
 <body>
-<div class="containter " id="containter1">
+<div class="containter">
     <!--头部-->
-    <div class="mmb_top">
-        <div class="mmb_header">
-            <div class="logo">
-                <a href="#"><img src="images/header_logo.png" alt=""></a>
-            </div>
-            <div class="app_download">
-                <a href="#"><img src="images/header_app.png" alt=""></a>
-            </div>
+    <div class="mmb_header">
+        <div class="logo">
+            <i class="fa fa-angle-left back"></i>
         </div>
-        <!--搜索栏-->
-        <div class="mmb_search">
-            <form action="#" class="search">
-                <input type="search" name="" id="search" placeholder="请输入你想比价的商品">
-                <input type="button" value="搜索" class="btn ">
-            </form>
+        <div class="mmb_middle">
+           <h1>省钱控-最新优惠</h1>
         </div>
-        <!--导航条-->
-        <div class="mmb_smallnav clearfix">
-            <div class="box_l fl">
-                <a href="index.html">首页 ></a>
-                <a href="category.html">全部分类 ></a>
-                <!--挖个坑-->
-            </div>
-            <a href="#" class="shaixuan" fr>筛选</a>
+        <div class="app_download">
+            <a href="#"><img src="images/header_app.png" alt=""></a>
         </div>
-        <!--商品列表   -->
-        <div class="mmb_productlist1">
+    </div>
+    <div class="moneyctrl_body">
+        <div class="moneyctrl_product">
+            <ul class="moneyctrl_productul">
+               <!--挖个坑-->
 
-            <ul class="clearfix mmb_productlist1_son">
-                <!--挖个坑-->
 
             </ul>
 
@@ -60,9 +46,12 @@
             </span>
             <span><a href="">下一页</a></span>
         </div>
+
     </div>
-    <!--底部-->
+
+
     <div class="mmb_footer">
+
         <footer id="ctl00_foot">
             <div class="foot_top">
                 <a href="javascript:;">登录</a>
@@ -83,31 +72,32 @@
 </div>
 <script type="text/html" id="tpl">
     {{each result v i}}
-    <a href="index.html">首页 ></a>
-    <a href="category.html">全部分类 ></a>
-    <a href="#">{{v.category}}></a>
-    {{/each}}
-</script>
-<script type="text/html" id="tpl2">
-    {{each result v i}}
     <li>
-        <a href="product.html?productid={{v.productId}}&categoryid={{v.categoryId}}" class="clearfix">
-            <div class="pic fl">{{#v.productImg}}</div>
-            <div class="top1 fl">
+        <a href="moneyctrlproduct.html?productid={{v.productId}}">
+            <div class="pic fl">{{@v.productImg2}}</div>
+            <div class="top fl">
                 {{v.productName}}
+                <span>{{v.productPinkage}}</span>
             </div>
             <div class="bottom">
-                <span class="price">{{v.productPrice}}</span><br>
-                <span class="mall">{{v.productQuote}} | {{v.productCom}}</span>
+                <span class="mall">{{v.productFrom}} | {{v.productTime}}</span>
+                 <span class="comment fr">
+                   <i class="fa fa-commenting-o"></i>
+                    {{v.productComCount}}
+                 </span>
             </div>
         </a>
     </li>
-{{/each}}
+
+    {{/each}}
+
 </script>
+
+
 <script src="lib/jquery/jquery.min.js"></script>
 <script src="lib/artTemplate/template-web.js"></script>
 <script src="js/common.js"></script>
-<script src="js/productlist.js"></script>
+<script src="js/moneyctrl.js"></script>
 <script src="js/tools.js"></script>
 
 </body>
